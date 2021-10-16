@@ -29,7 +29,7 @@ body {
 .logo-blue {
   color: var(--primary-logo-blue);
   font-family: "Raleway";
-  font-style: 700;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -37,7 +37,7 @@ body {
 .logo-dark {
   color: var(--primary-logo-dark);
   font-family: "Raleway";
-  font-style: 700;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -47,7 +47,7 @@ body {
   color: var(--primary-current-color);
 }
 .nav-link {
-  font-style: 500;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color: var(--second-color);
@@ -56,6 +56,7 @@ body {
   color: var(--primary-current-color);
 }
 .header-contacts {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color: inherit;
@@ -70,7 +71,6 @@ body {
   color: var(--first-color);
 }
 .main-title {
-  font-style: Black;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
@@ -87,7 +87,7 @@ body {
   background-color: var(--primary-hover-button);
 }
 /*  advantage */
-.advantage-title {
+.advantage-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -99,19 +99,19 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-.advantage-list {
-  font-style: 700;
+.advantage-title {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   color: var(--second-color);
 }
-.advantage-text {
+.advantage-list {
   font-size: 14px;
   line-height: 1.71;
 }
 /* activity */
 .activity-title {
-  font-style: 700;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -119,14 +119,14 @@ body {
 }
 /* Team */
 .team-title {
-  font-style: 700;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   color: var(--second-color);
 }
 .team-list {
-  font-style: 500;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
   color: var(--second-color);
@@ -139,13 +139,16 @@ body {
 .logo-white {
   color: #ffffff;
   font-family: "Raleway";
-  font-style: 700;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .footer {
   background-color: var(--third-color);
+}
+.footer-address {
+  font-style: normal;
 }
 .address {
   color: var(--first-color);
@@ -184,7 +187,7 @@ body {
   color: var(--second-color);
 }
 .portfolio-text {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.88;
 }
 .btn-pornfolio {
